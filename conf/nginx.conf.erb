@@ -1,9 +1,9 @@
 server {
-    set $host_path "/www/mysite";
-    access_log  /www/mysite/log/access.log  main;
+    set $host_path "/";
+    access_log  //log/access.log  main;
 
-    server_name  mysite;
-    root   $host_path/htdocs;
+    server_name  remboursez;
+    root   $host_path/frontend/www;
     set $yii_bootstrap "index.php";
 
     charset utf-8;
